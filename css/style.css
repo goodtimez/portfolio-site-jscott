@@ -227,18 +227,22 @@ header .header-content {
     background-color: #464646;
 }
 #narrative .container-fluid {
-    padding: 50px;
+    padding: 40px;
 }
 #broadcast {
-    background-color: #e6e7e8;
-/*    background-color: #464646;*/
+    /* background-color: #e6e7e8; */
+   background-color: #464646;
 }
 #broadcast .container-fluid {
-    padding: 50px;
+    padding: 40px;
 }
 footer {
-    background-color: #464646;
-    padding: 20px;
+    /* background-color: #464646; */
+    background-color: #e6e7e8;
+    padding: 5px;
+}
+footer p {
+    color: #000000;
 }
 .no-padding {
     padding: 0;
