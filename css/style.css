@@ -407,8 +407,3 @@ footer p {
 	font-size: 14px;
 	color: var(--primary-color);
 }
-@media (max-width: 700px){
-	footer{
-		padding: 80px 15px;
-	}
-}
