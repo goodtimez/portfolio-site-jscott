@@ -382,9 +382,6 @@ header nav li:last-child{
     padding: 2px;
     font-family: var(--main-font);
 }
-.project-btn:hover {
-    color: var(--secondary-color);
-}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .movie-popup {
