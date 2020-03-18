@@ -1,4 +1,5 @@
-/* CSS Variables */
+/* CSS Variables
+-------------------------------------------------------------------------*/
 :root {
     /* Fonts */
     --main-font: 'Lato', sans-serif;
@@ -7,7 +8,8 @@
     --primary-color: #ffffff;
     --secondary-color: #000000;
 }
-/* General */
+/* General
+-------------------------------------------------------------------------*/
 *{
 	margin: 0;
 	padding: 0;
@@ -18,7 +20,8 @@ body {
     height: 100%;
     width: 100%;
 }
-/* Typography & General */
+/* Typography & General
+-------------------------------------------------------------------------*/
 a{
 	text-decoration: none;
 	color: inherit;
@@ -35,21 +38,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 a:hover{
 	opacity: 1;
-}
-a.btn{
-	color: #fff;
-	border-radius: 4px;
-	text-transform: uppercase;
-	background-color: #2196F3;
-	font-weight: 800;
-	text-align: center;
-}
-hr{
-	width: 150px;
-	height: 2px;
-	background-color: #2196F3;
-	border: 0;
-	margin-bottom: 80px;
 }
 .title {
     font-size: 40px;
@@ -84,7 +72,8 @@ section {
 		padding: 10px 30px;
 	}
 }
-/* Header Section */
+/* Header Section
+-------------------------------------------------------------------------*/
 ul, nav {
 	list-style: none;
 }
@@ -132,7 +121,8 @@ header nav li:last-child{
 		margin-bottom: 15px;
 	}
 }
-/* Reel Section */
+/* Reel Section
+-------------------------------------------------------------------------*/
 .reel {
 	position: relative;
 	justify-content: center;
@@ -291,7 +281,8 @@ header nav li:last-child{
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
 	opacity: 0;
 }
-/* Narrative & Broadcast */
+/* Narrative & Broadcast 
+-------------------------------------------------------------------------*/
 .project-grid {
     display: flex;
     flex-wrap: wrap;
@@ -361,14 +352,6 @@ header nav li:last-child{
     opacity: 0.8;
 }
 .project-btn {
-    /* border: 1px solid var(--secondary-color);
-    color: var(--secondary-color);
-    display: inline-block;
-    text-align:center;
-    font-size: 16px;
-    min-width: 50px;
-    margin-top: 5%;
-    padding: 5px 10px; */
     border-top: 2px dashed #000;
     border-bottom: 2px dashed #000;
     border-left: 1px solid #000;
@@ -391,7 +374,8 @@ header nav li:last-child{
         flex-basis: 45%;
     }
 }
-/* Footer Section */
+/* Footer Section 
+-------------------------------------------------------------------------*/
 footer {
 	display: flex;
 	flex-direction: column;
