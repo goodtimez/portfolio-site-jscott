@@ -72,6 +72,8 @@ section {
 .header-text p {
     font-size: 24px;
     font-weight: 700;
+    font-family: var(--heading-font);
+    text-transform: uppercase;
 }
 .project-grid {
     display: flex;
